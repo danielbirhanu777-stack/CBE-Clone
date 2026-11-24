@@ -250,8 +250,8 @@ class _DemoReceiptPage extends StatelessWidget {
             Container(
               color: Colors.red.shade100,
               padding: const EdgeInsets.all(14),
-              child: const Text(
-                'DEMO ONLY — NOT A REAL BANK TRANSACTION\nSIMULATED — NO MONEY SENT',
+              
+      
                 textAlign: TextAlign.center,
                 style: TextStyle(
                     color: Colors.red, fontWeight: FontWeight.bold),
@@ -269,8 +269,7 @@ class _DemoReceiptPage extends StatelessWidget {
             Text('Amount: $amount ETB'),
             const Divider(),
             const SizedBox(height: 20),
-            const Text(
-              'This is a sample screen for testing the app only. It is not proof of payment.',
+        
               textAlign: TextAlign.center,
             ),
             const Spacer(),
