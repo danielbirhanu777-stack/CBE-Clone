@@ -165,8 +165,8 @@ class _DemoTransferFormState extends State<_DemoTransferForm> {
               Container(
                 color: Colors.amber.shade100,
                 padding: const EdgeInsets.all(12),
-                child: const Text(
-                  'DEMO ONLY — this screen does not connect to CBE or send money.',
+                
+                  
                   textAlign: TextAlign.center,
                   style: TextStyle(fontWeight: FontWeight.bold),
                 ),
@@ -241,7 +241,7 @@ class _DemoReceiptPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Demo Receipt')),
+      appBar: AppBar(title: const Text('Receipt')),
       body: Padding(
         padding: const EdgeInsets.all(20),
         child: Column(
@@ -251,10 +251,10 @@ class _DemoReceiptPage extends StatelessWidget {
               color: Colors.red.shade100,
               padding: const EdgeInsets.all(14),
               
-      
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                    color: Colors.red, fontWeight: FontWeight.bold),
+                
+             
+                
+  
               ),
             ),
             const SizedBox(height: 25),
@@ -269,7 +269,8 @@ class _DemoReceiptPage extends StatelessWidget {
             Text('Amount: $amount ETB'),
             const Divider(),
             const SizedBox(height: 20),
-        
+            
+              
               textAlign: TextAlign.center,
             ),
             const Spacer(),
